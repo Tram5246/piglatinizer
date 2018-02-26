@@ -31,8 +31,8 @@ function piglat (x){
 function sentencrToPigLatin (p){
     var vowels = ['a', 'e', 'i', 'o', 'u'];
     if (p[0] in vowels) {
-        return sentenceToPigLatin.append
+        return (piglat(input));
     }
     else {
-        
+        return (input);
     }
