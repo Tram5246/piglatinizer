@@ -10,7 +10,7 @@
 $( document ).ready(function() {
 	$('#pig').click(function(){
 		var input = $('#input').val();
-		var pigWord = wordToPigLatin(input);
+		var pigWord = uppercaser(input);
 		$('#place').text(pigWord);
 	});
 
